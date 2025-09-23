@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/Fido2/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection2_A5B98C0F17",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fido2-server/databases/AspNetCoreIdentityFido2Passwordless",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection2",
+      "dynamicId": null
+    }
+  }
+}

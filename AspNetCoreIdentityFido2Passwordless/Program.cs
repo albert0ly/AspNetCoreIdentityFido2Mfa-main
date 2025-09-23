@@ -64,6 +64,22 @@ app.UseAuthorization();
 
 app.UseSession();
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    try
+    {
+        db.Database.Migrate(); // Only applies missing migrations
+        Console.WriteLine("Database is up-to-date.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Migration failed: {ex.Message}");
+        throw;
+    }
+}
+
 app.MapRazorPages();
 app.MapControllers();
 
