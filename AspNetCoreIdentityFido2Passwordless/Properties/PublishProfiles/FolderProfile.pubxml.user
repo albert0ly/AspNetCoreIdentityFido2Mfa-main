@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\User\Downloads\temp\AspNetCoreIdentityFido2Mfa-main\AspNetCoreIdentityFido2Passwordless\bin\Debug\net9.0\publish\</_PublishTargetUrl>
+    <History>True|2025-09-24T07:21:19.2794557Z||;True|2025-09-24T10:12:42.5789340+03:00||;True|2025-09-23T21:40:13.4351959+03:00||;True|2025-09-23T21:38:33.8815098+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=%28localdb%29\MSSQLLocalDB%3bDatabase=AspNetCoreIdentityFido2Passwordless%3bIntegrated Security=True%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AspNetCoreIdentityFido2Passwordless.Data.ApplicationDbContext">
+      <Value>Server=%28localdb%29\MSSQLLocalDB%3bDatabase=AspNetCoreIdentityFido2Passwordless%3bIntegrated Security=True%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
