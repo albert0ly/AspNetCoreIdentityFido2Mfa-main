@@ -10,6 +10,14 @@
   <PropertyGroup>
     <DefaultItemExcludes>$(DefaultItemExcludes);wwwroot\css\site.min.css;wwwroot\css\vendor.min.css;wwwroot\js\site.min.js;wwwroot\js\vendor-validation.min.js;wwwroot\js\vendor.min.js</DefaultItemExcludes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\vendor.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\vendor.min.js" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="Fido2" Version="3.0.1" />
