@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "bootstrap": "5.3.3",
+    "eslint": "^9.36.0",
     "jquery": "3.7.1",
     "jquery-ajax-unobtrusive": "3.2.6",
     "jquery-validation": "1.21.0",
